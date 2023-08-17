@@ -36,6 +36,6 @@ schema([
 ])
 implementation("curl_certificate@genTLSCertificate")
 examples([
-  "select * from curl_certificate where hostname = 'osquery.io'"
+  "select * from curl_certificate where hostname = 'osquery.io'",
   "select * from curl_certificate where hostname = 'osquery.io' and dump_certificate = 1"
 ])
